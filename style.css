@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+body  {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  /* changing font size use ems which is a percentage of the font */
+  font-size: 1.25em;
+}
+header {
+  /* how do we make the height specific to devices */
+  min-height:100vh;
+  background-color: #7d8e8e;
+}
+nav {
+  background-color:#e01123;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: #11e0dc;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding:  1em;
+}
+nav ul {
+  margin:0;
+}
+header main {
+  padding-top: 3em;
+  text-align:center;
+  font-size: 1.25em;
+}
+h1  {
+  /* if you wanted to change case */
+  /* text-transform: uppercase; */
+  font-size:2.0em;
+  letter-spacing: 0.5em;
+  /* text-shadow: 0 1px grey; */
+}
+header img{
+  /* padding: 1em; */
+  /* padding-top: 1em; */
+  width: 20%;
+  border-radius: 50%;
+  border: 1px black solid;
+}
+
+
+
+.about-me {
+  padding: 3em 1em;
+  line-height: 1.25;
+  background-color: #0099ff;
+  color: black;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.FavouriteSportsPlayers{
+  color: black;
+  padding: 3em 0;
+  background-color: #7d8e8e;
+}
+
+
+
+
+
+@media only screen and (max-width: 770px) {
+  header img {
+    width: 300px;
+  }
+}
+
